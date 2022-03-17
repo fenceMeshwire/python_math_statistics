@@ -15,5 +15,4 @@ def calculate_mean(numbers):
 if __name__ == '__main__':
     numbers = [10, 6, 7, 90, 10, 20, 50, 5, 53, 60, 10, 12]
     mean = calculate_mean(numbers)
-    N = len(numbers)
     print('Mean number is: {0}'.format(mean))

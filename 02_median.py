@@ -5,6 +5,7 @@
 # 02_median.py
 
 # Purpose: Calculate the median of a given list of numbers (integer, float).
+# The median is the middle value when a data set is ordered from least to greatest.
 
 def calculate_median(numbers):
     N = len(numbers)

@@ -2,7 +2,7 @@
 
 # Python 3.9.5
 
-# 04_mode.py
+# 03_mode.py
 
 # Purpose: Calculating the mode of a given list.
 # In statistics, the mode represents the most common value in a data set.

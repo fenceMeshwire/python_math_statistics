@@ -2,7 +2,7 @@
 
 # Python 3.9.5
 
-# Purpose:  Calculate the possible combinations from a combination lock 
+# Purpose:  Calculate the possible combinations from a four digit combination lock 
 #           without and with repeating of the numbers.
 
 # Dependency

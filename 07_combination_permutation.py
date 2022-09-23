@@ -41,13 +41,13 @@ if __name__ == '__main__':
 
     # Get combinations with repeat: cartesian product
     combinations_with_repeat = get_combinations_with_repeat(values, columns)
-    len(combinations_with_repeat)
-    print((1, 1, 1, 1) in combinations_with_repeat)
+    len(combinations_with_repeat) # 10000
+    print((1, 1, 1, 1) in combinations_with_repeat) # True
 
     # Get permutations: all possible orderings, no repeating elements
     combinations_no_repeat = get_permutations(values, columns)
-    len(combinations_no_repeat)
-    print((1, 2, 3, 4) in combinations_no_repeat)
+    len(combinations_no_repeat) # 5040
+    print((1, 2, 3, 4) in combinations_no_repeat) # True
 
     # Get combinations: in sorted order, no repeating elements
     combos = get_combination(values, columns)
